@@ -1,0 +1,27 @@
+.sidebarOptions{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.sidebarOptions:hover{
+    background-color: #e8f5fe;
+    border-radius: 20px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+}
+.sidebarOptions>.MuiSvgIcon_root{
+    padding: 10px 15px;
+}
+.sidebarOptions>h2{
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 20px;
+
+}
+@media screen and(max-width:688px) {
+    .sidebar_tweet{
+        display: none;
+    }
+    
+}
